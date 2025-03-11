@@ -47,9 +47,9 @@ const queryItem = {
 
 
 const main = async () => {
-    // console.log("list: ", await list_tables());
-    // console.log("create: ", await create_table(table));
-    // console.log("list: ", await list_tables());
+    console.log("list: ", await list_tables());
+    console.log("create: ", await create_table(table));
+    console.log("list: ", await list_tables());
 
     // console.log("insert: ", await insert_to_table(item));
     // console.log('aaa', await scan_table(table.TableName))
